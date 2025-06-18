@@ -1,0 +1,26 @@
+[
+	{
+		"title": "Aston",
+		"img": "/CarsSlider/images/Aston.png"
+	},
+	{
+		"title": "Camaro",
+		"img": "/CarsSlider/images/Camaro.png"
+	},
+	{
+		"title": "Ferrari",
+		"img": "/CarsSlider/images/Ferrari.png"
+	},
+	{
+		"title": "Lamborghini",
+		"img": "/CarsSlider/images/Lamborghini.png"
+	},
+	{
+		"title": "Mustang",
+		"img": "/CarsSlider/images/Mustang.png"
+	},
+	{
+		"title": "Tesla",
+		"img": "/CarsSlider/images/Tesla.png"
+	}
+]
