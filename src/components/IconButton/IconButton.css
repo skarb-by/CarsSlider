@@ -1,0 +1,93 @@
+.icon-button {
+	width: 42px;
+	height: 42px;
+	border-radius: 50%;
+	background: linear-gradient(145deg, #f0f0f0, #dcdcdc);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	transition: transform 0.2s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+	user-select: none;
+	position: relative;
+	touch-action: manipulation;
+	/* Убирает двойной tap */
+}
+
+/* Hover (десктопы) */
+@media (hover: hover) and (pointer: fine) {
+	.icon-button:hover {
+		transform: scale(1.1);
+		background: linear-gradient(145deg, #e8e8e8, #cfcfcf);
+		box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+	}
+}
+
+/* Active */
+.icon-button:active {
+	transform: scale(0.95);
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Arrow shape */
+.icon-button.left::before,
+.icon-button.right::before {
+	content: '';
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	border-top: 2px solid #333;
+	border-right: 2px solid #333;
+}
+
+.icon-button.left::before {
+	transform: rotate(-135deg);
+}
+
+.icon-button.right::before {
+	transform: rotate(45deg);
+}
+
+/* Disabled */
+.icon-button.disable {
+	opacity: 0.3;
+	pointer-events: none;
+	cursor: default;
+	transform: none;
+	box-shadow: none;
+}
+
+
+
+/* Tablet */
+@media (max-width: 1024px) {
+	.icon-button {
+		width: 40px;
+		height: 40px;
+	}
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+	.icon-button {
+		width: 30px;
+		height: 30px;
+	}
+
+	.icon-button.left::before,
+	.icon-button.right::before {
+		width: 10px;
+		height: 10px;
+		border-top-width: 2px;
+		border-right-width: 2px;
+	}
+}
+
+/* Dark theme (optional) */
+@media (prefers-color-scheme: dark) {
+	.icon-button {
+		background: linear-gradient(145deg, #333, #222);
+		box-shadow: 0 4px 10px;
+	}
+}
