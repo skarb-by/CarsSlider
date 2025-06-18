@@ -1,26 +1,26 @@
 [
 	{
 		"title": "Aston",
-		"img": "/images/Aston.png"
+		"img": "/CarsSlider/images/Aston.png"
 	},
 	{
 		"title": "Camaro",
-		"img": "/images/Camaro.png"
+		"img": "/CarsSlider/images/Camaro.png"
 	},
 	{
 		"title": "Ferrari",
-		"img": "/images/Ferrari.png"
+		"img": "/CarsSlider/images/Ferrari.png"
 	},
 	{
 		"title": "Lamborghini",
-		"img": "/images/Lamborghini.png"
+		"img": "/CarsSlider/images/Lamborghini.png"
 	},
 	{
 		"title": "Mustang",
-		"img": "/images/Mustang.png"
+		"img": "/CarsSlider/images/Mustang.png"
 	},
 	{
 		"title": "Tesla",
-		"img": "/images/Tesla.png"
+		"img": "/CarsSlider/images/Tesla.png"
 	}
 ]
